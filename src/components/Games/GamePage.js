@@ -10,3 +10,5 @@ const GamePage = ({name, game, developer}) => {
         </div>
     )
 }
+
+export default GamePage

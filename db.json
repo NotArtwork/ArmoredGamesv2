@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Totally Ethical Testing Area",
+      "genre": "typicode",
+      "plays": 200,
+      "game_link": "https://19297.cache.armorgames.com/files/games/totally-ethical-test-19297/index.html?v=1666015648",
+      "image": "https://gamemedia.armorgames.com/19303/icn_thmb.png"
+    },
+    {
+      "id": 2,
+      "title": "Totally Ethical Testing Area",
+      "genre": "typicode",
+      "plays": 200,
+      "game_link": "https://19297.cache.armorgames.com/files/games/totally-ethical-test-19297/index.html?v=1666015648",
+      "image": "https://gamemedia.armorgames.com/19303/icn_thmb.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

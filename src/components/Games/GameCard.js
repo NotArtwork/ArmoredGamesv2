@@ -1,7 +1,7 @@
 import GamePage from './GamePage.js'
 
 
-const GameCard = ({name, genre, developer, plays, game}) => {
+const GameCard = ({name, genre, developer, plays, game, image}) => {
     return (
         <div>
             <image src={image}></image>
@@ -12,3 +12,5 @@ const GameCard = ({name, genre, developer, plays, game}) => {
         </div>
     )
 }
+
+export default GameCard

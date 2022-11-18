@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import ErrorPage from "./ErrorPage.js"
+import GameCard from "./Games/GameCard.js"
 
 
 const Home = () => {
@@ -42,3 +43,5 @@ const Home = () => {
         </>
     )
 }
+
+export default Home
