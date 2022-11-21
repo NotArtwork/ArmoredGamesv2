@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/Navbar.js'
 import GamePage from './components/Games/GamePage';
@@ -17,11 +16,13 @@ const App = () => {
     <Router>
       <NavBar />
       <Routes>
-        <Route path='/gamepage'>
-          <GamePage />
+        <Route path='/gamepage'
+         element={<GamePage />}
+         >
         </Route>
-        <Route path='/home'>
-          <Home />
+        <Route path='/'
+          element={<Home />}
+          >
         </Route>
       </Routes>
     </Router>
